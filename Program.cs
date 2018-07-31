@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -7,8 +7,9 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using WebApplication;
 
-namespace Website
+namespace backend
 {
     public class Program
     {
@@ -22,5 +23,4 @@ namespace Website
                 .UseStartup<Startup>()
                 .Build();
     }
-    
 }

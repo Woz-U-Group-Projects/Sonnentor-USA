@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using WebApplication.Data;
+//using WebApplication.Data;
 using Microsoft.Extensions.Configuration;
+using WebApplication.Data;
 
 namespace WebApplication
 {
@@ -18,17 +19,17 @@ namespace WebApplication
 
         public Startup(IConfiguration Configuration)
         {
-            Configuration = configuration;
+            this.Configuration = Configuration;
         }
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<todoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Server=localhost;SQLEXPRESS03;Database=master;Trusted_Connection=True;")));
+            services.AddDbContext<TodoContext>(options => options.UseSqlServer(Configuration.GetConnectionString("Server=localhost;SQLEXPRESS03;Database=master;Trusted_Connection=True;")));
 
-            services.addMvc()
+            services.AddMvc()
                 .AddXmlDataContractSerializerFormatters();
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnviroment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
             {

@@ -1,0 +1,3 @@
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.0\backend.csproj.CoreCompileInputs.cache
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfoInputs.cache
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.0\backend.AssemblyInfo.cs

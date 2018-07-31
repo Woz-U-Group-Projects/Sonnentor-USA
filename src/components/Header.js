@@ -2,8 +2,16 @@ import React from 'react';
 import { render } from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
+import { Button, Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import {  NavItem} from 'react-bootstrap';
+import {  NavDropdown } from 'react-bootstrap';
+import {  MenuItem } from 'react-bootstrap';
+import {  Header } from 'react-bootstrap'
 
-<Navbar>
+class grid extends React.Component {
+    render() {
+        return <Navbar>
     <Navbar.Header>
         <Navbar.Brand>
             <a href="/Home"> Home </a>
@@ -19,5 +27,6 @@ import { Provider } from 'react-redux';
         </NavDropdown>
     </Nav>
 </Navbar>;
+    }}
 
-export default Header;
+//export default Header;

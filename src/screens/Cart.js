@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
-import { Provider } from 'react-blackux';
-import { createStore, combineblackucers } from 'blackux';
-import {Cart,Product,CheckoutButton,cartLocalization,cartblackucer,setCartCurrency,} from 'react-shopping-cart';
+import { Provider } from 'react-redux';
+import { createStore, combineReducers } from 'redux';
+import {Cart,Product,CheckoutButton,cartLocalization,cartreducer,setCartCurrency,} from 'react-shopping-cart';
  
  
 import 'bootstrap/dist/css/bootstrap.css';
@@ -10,8 +10,7 @@ import 'font-awesome/css/font-awesome.min.css';
  
 const { getDefaultLocalization } = cartLocalization;
  
-// You may take localization object from wherever you want, that's just an example
-// For more information, see localization section
+
 const TeaCaseLocalization = {
   type: 'type',
   TeaCase: 'Tea case',
@@ -28,10 +27,10 @@ const TeaPropertiesWithAdditionalCostLocalization = {
 };
  
 const store = createStore(
-  combineblackucers(
+  combineReducers(
     {
-      cart: cartblackucer,
-      // Your own blackucers, sir
+      cart: cartreducer,
+      
     }
   )
 );
@@ -40,7 +39,7 @@ store.dispatch(
   setCartCurrency('USD'),
 );
  
- 
+ // eslint-disable-next-line
 class App extends PureComponent {
  
   state = {

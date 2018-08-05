@@ -1,0 +1,14 @@
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.csprojAssemblyReference.cache
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.csproj.CoreCompileInputs.cache
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.RazorAssemblyInfo.cache
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.RazorAssemblyInfo.cs
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.AssemblyInfoInputs.cache
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.AssemblyInfo.cs
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\bin\Debug\netcoreapp2.1\backend.deps.json
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\bin\Debug\netcoreapp2.1\backend.runtimeconfig.json
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\bin\Debug\netcoreapp2.1\backend.runtimeconfig.dev.json
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\bin\Debug\netcoreapp2.1\backend.dll
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\bin\Debug\netcoreapp2.1\backend.pdb
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.RazorTargetAssemblyInfo.cache
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.dll
+C:\Users\TheSchnipe\Desktop\Website\my-app\backend\obj\Debug\netcoreapp2.1\backend.pdb

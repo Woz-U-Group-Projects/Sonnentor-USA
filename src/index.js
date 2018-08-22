@@ -6,7 +6,7 @@ import {Provider, connect } from 'react-redux';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Home, Sale, Cart, About } from "./screens";
 import { render } from 'react-dom';
-import { Header } from "./components"
+import Header from "./components/Header" // { Header } is used for named imports but since you are exporting a default in Header.js you need to say import Header instead of { Header } :)
 
 
 let store = createStore(reducer)

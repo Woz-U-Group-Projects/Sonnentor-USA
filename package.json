@@ -8,11 +8,19 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
     "react": "^16.4.1",
+    "react-amazing-grid": "^1.1.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.1",
+    "react-fiber": "^0.2.101",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4",
-    "react-shopping-cart": "^1.8.1"
+    "react-shopping-cart": "^1.8.1",
+    "reactstrap": "^6.3.1",
+    "redux": "^4.0.0",
+    "sass": "^1.10.3",
+    "save": "^2.3.2",
+    "shopping-cart": "^1.0.4",
+    "webpack3": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
